@@ -7,12 +7,25 @@
 */
 int main(void)
 {
-	int ch;
+int i, j;
 
-	for (ch = 'j'; ch <= 'o'; ch++)
-		putchar(ch);
-	for (ch = 'J'; ch <= 'O'; ch++)
-		putchar(ch);
-		putchar('\n');
-		return (0);
+	i = 97;
+	j = 65;
+
+	while (i < 123)
+{
+		putchar(i);
+		i++;
+}
+
+	while (j < 91)
+{
+		putchar(j);
+		j++;
+												}
+
+		putchar(10);
+
+
+		return(0);
 }

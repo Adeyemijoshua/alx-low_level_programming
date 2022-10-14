@@ -10,17 +10,17 @@
 
 int main(void)
 {
-	char low, e, q;
+	int i = 97;
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
+	while (i < 123)
 {
-		if (low != e && low != q)
-			putchar(low);
-
-	putchar('\n');
+		if (i != 101 && i != 113)
+{
+															putchar(i);
+													}
+	i++;
+}
+	putchar(10);
 
 	return (0);
 }

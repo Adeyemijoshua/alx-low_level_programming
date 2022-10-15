@@ -12,10 +12,10 @@ int main(void)
 
 	p = 48;
 
-	while (i < 58)
+	while (p < 58)
 {
-	putchar(i);
-	i++;
+	putchar(p);
+	p++;
 }
 
 	putchar(10);

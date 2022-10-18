@@ -1,22 +1,19 @@
-#include <main.h>
-
-/*
-*main - Entry point
+#include "main.h"
+/**
+* main - Prints _putchar as a message.
 *
-*Return: return void
+* Return: Always (0)
 */
-
 int main(void)
-
 {
-	_putchar('_');
-	_putchar('p');	
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, siz;
+
+	siz = sizeof(str) / sizeof(int);
+	for (count = 0; count < siz; count++)	
+{
+		_putchar(str[count]);
+}	
+		_putchar('\n');
+		return (0);
 }

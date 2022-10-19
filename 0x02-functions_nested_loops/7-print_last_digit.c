@@ -4,20 +4,15 @@
 * @n: int type number
 * Return: return value of last digit
 */
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-int r;
+	int n;
 
-if (n < 0)
-{
-r = -1 * (n % 10);
-_putchar(r + '0');
-return (r);
-}
-else
-}
-r = n % 10;
-_putchar(r + '0');
-return (r);
-}
+	if (r < 0)
+		n = -1 * (r % 10);
+	else
+		n = r % 10;
+
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }

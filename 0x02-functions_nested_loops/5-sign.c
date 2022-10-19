@@ -27,5 +27,5 @@ int value = 0;
 	value = -1;
 	_putchar('-');
 
-	return (value);
+	return (0);
 }

@@ -12,20 +12,20 @@ int print_sign(int n)
 {
 int value = 0;
 
-if (n > 0)
+	if (n > 0)
 {
-value = 1;
-_putchar('+');
+	value = 1;
+	_putchar('+');
 }
-else if (n == 0)
+	else if (n == 0)
 {
-value = 0;
-_putchar('0');
+	value = 0;
+	_putchar('0');
 }
-else
+	else
 {
-value = -1;
-_putchar('-');
+	value = -1;
+	_putchar('-');
 
-return (value);
+	return (value);
 }

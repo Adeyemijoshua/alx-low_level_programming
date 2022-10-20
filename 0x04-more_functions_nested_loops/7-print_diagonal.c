@@ -1,16 +1,29 @@
 #include "main.h"
 
 /**
-* _abs - Check main
-* @n: An input number
-* Description: This function returns absolute value of a number
-* Return: Absolute value of number n
+* print_diagonal - print slash
+* @n: params
 */
 
-int _abs(int n)
+void print_diagonal(int n)
 {
-if (n >= 0)
-return (n);
+int i = 0;
+int j;
+
+if (n > 0)
+{
+for (; i < n; i++)
+{
+for (j = 0; j < i; j++)
+{
+_putchar(' ');
+}
+_putchar(92);
+_putchar('\n');
+}
+}
 else
-return (n * -1);
+{
+_putchar('\n');
+}
 }

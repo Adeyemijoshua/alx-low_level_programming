@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the sign of a number
- * @n: Input number
- * Description: this function prints sign
- * Return: 1 if number is positive,0 if number is 0, or
- * -1 if number is negative
- */
+* more_numbers - prints 10 times the numbers, from 0 to 14
+* followed by a new line
+*/
 
 void more_numbers(void)
 {
